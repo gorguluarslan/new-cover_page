@@ -141,7 +141,7 @@ body .main-container .col {
   background-position: center center;
 }
 body .main-container .col.dark {
-  background-image: url(../img/insaat.jpg);
+  background-image: url(../img/insaat1.jpg);
 
 }
 body .main-container .col.light {
@@ -195,8 +195,10 @@ body .main-container .col span {
 body .main-container .col:hover::after {
   opacity: 0;
 }
+
 body .main-container .col.dark:hover span {
   background-color: rgba(0, 0, 0, 0);
+
 }
 body .main-container .col.light:hover span {
   background-color: rgba(255, 255, 255, 0);
@@ -209,6 +211,8 @@ body .main-container .col.light:hover span {
 @media (min-width: 200px) {
   .plt-icon {
     width: 20% !important;
+    margin-left: 25rem;
+
   }
   body .main-container .col span {
     display: inline-block;
@@ -255,7 +259,9 @@ padding: 0 22px 190px 20px;
 
 @media (min-width: 320px) {
   .plt-icon {
-    width: 50% !important;
+    width: 20% !important;
+    margin-left: 11rem;
+
   }
 
   body .main-container .col span {
@@ -279,13 +285,14 @@ padding: 0 22px 190px 20px;
     transition: all 0.3s ease;
   }
   .alt-text {
-    margin-top: 40%;
+    margin-top: 0%;
     font-weight: 600;
     font-size: 12px;
   }
   .alt-text1 {
     margin-top: 110%;
     font-weight: 500;
+    font-size: 12px;
   }
   .alt-text2 {
     margin-top: 180%;
@@ -302,6 +309,7 @@ padding: 0 22px 190px 10px;
   }
 }
 
+
 /* 
 ##Cihaz = DÃ¼ÅŸÃ¼k Ã‡Ã¶zÃ¼nÃ¼rlÃ¼klÃ¼ Tablet ve Mobil Ekranlar (Landscape / Yatay Modda)
 ##Ekran = 481px to 767px ArasÄ± Ekranlar
@@ -310,7 +318,7 @@ padding: 0 22px 190px 10px;
 @media (min-width: 481px) {
   .plt-icon {
     width: 20% !important;
-    margin-left: 20rem;
+    margin-left: 13rem;
   }
   body .main-container .col span {
     display: inline-block;
@@ -348,7 +356,7 @@ padding: 0 22px 190px 10px;
   }
   .decor-img img{
     width: 150px;
-    margin-bottom: 200px;
+    margin-bottom: 186px;
   }
   .makri-img img{
     width: 130px;
@@ -405,12 +413,11 @@ padding: 0 22px 190px 10px;
   }
   .decor-img img{
     width: 150px;
-    margin-bottom: 200px;
-  }
+    padding: 0px 140px 214px 0px; 
+ }
   .makri-img img{
     width: 130px;
-    margin-bottom: 190px;
-
+    padding: 0 0 200px 140px;
   }
 }
 
@@ -421,8 +428,8 @@ padding: 0 22px 190px 10px;
 
 @media (min-width: 768px) and (orientation: landscape) {
   .plt-icon {
-    width: 15% !important;
-    margin-left: 25rem;
+    width: 10% !important;
+    margin-left: 20rem;
   }
   body .main-container .col span {
     display: inline-block;
@@ -460,10 +467,10 @@ padding: 0 22px 190px 10px;
   }
   .decor-img img{
     width: 224px;
-padding: 0 210px 200px 0px;  }
+padding: 0 75px 209px 0px;  }
   .makri-img img{
     width: 200px;
-padding: 0 0 190px 220px;
+padding: 0 0 190px 90px;
   }
 }
 
@@ -495,28 +502,30 @@ padding: 0 0 190px 220px;
   }
   .plt-icon {
     width: 9% !important;
+    margin-left: 26rem;
+
   }
   .alt-text {
-    margin-top: 30%;
+    margin-top: 20%;
     font-size: 20px;
     font-weight: 600;
   }
   .alt-text1 {
-    margin-top: 35%;
+    margin-top: 40%;
     font-size: 15px;
     font-weight: 500;
   }
   .alt-text2 {
-    margin-top: 40%;
+    margin-top: 55%;
     font-size: 15px;
     font-weight: 500;
   }
   .decor-img img{
     width: 224px;
-padding: 0 210px 200px 0px;  }
+padding: 200px 120px 200px 0px;  }
   .makri-img img{
     width: 200px;
-padding: 0 0 190px 220px;
+padding: 188px 80px 190px 220px;
   }
  
 }
@@ -544,9 +553,11 @@ padding: 0 0 190px 220px;
   }
   .plt-icon {
     width: 9% !important;
+    margin-left: 49rem;
+
   }
   .alt-text {
-    margin-top: 30%;
+    margin-top: 10%;
     font-size: 20px;
     font-weight: 600;
   }
@@ -562,10 +573,10 @@ padding: 0 0 190px 220px;
   }
   .decor-img img{
     width: 430px;
-padding: 0 300px 230px 246px;  }
+padding: 277px 0 230px 0;  }
   .makri-img img{
     width: 400px;
-padding: 0 0 190px 120px;
+padding: 272px 0 190px 128px;
   }
  
 }
